@@ -20,7 +20,11 @@ We should also understand that **http** is a stateless protocol. Although it was
 
 But even with all this, it was still far from reality, as to how a backend server could directly interact with javascript. In 2011, **WebSocket** was standardized, thus opening a new era of javascript to server communication and vice versa.
 
-In online game, the response from one player has to be rapidly transmitted to other players (sitting in different region) of the table. WebSocket helps us doing that. When a player places a bid, that event is quickly transferred to other players, so that they can act accordingly. The game server was written in late **2015**. I do not have a plan to commercialize it yet. So if you want to have some fun time, download the libraries, deploy them in the WebServer (e.g., Tomcat) that has support for **WebSocket**, configure the schema by running the table script present in the **db/script** directory. Right now I am using **Derby Database** (pure java db and easily portable). I might shift to MySql for better scalability. 
+In online game, the response from one player has to be rapidly transmitted to other players (sitting in different region) of the table. WebSocket helps us doing that. When a player places a bid, that event is quickly transferred to other players, so that they can act accordingly. The game server was written in late **2015**. I do not have a plan to commercialize it yet. 
+
+## How to Setup
+
+If you want to have some fun time, download the libraries, deploy them in the WebServer (e.g., Tomcat) that has support for **WebSocket**, configure the schema by running the table script present in the **db/script** directory. Right now I am using **Derby Database** (pure java db and easily portable). I might shift to MySql for better scalability. 
 
 Happy Gaming !
 
