@@ -1,0 +1,63 @@
+
+body { font:11px  Verdana, Arial, Helvetica, sans-serif; color:#000; background:#FFF; line-height:130%; }
+
+td, tr, input, select, p { font:11px Arial, Helvetica, sans-serif; }
+
+/*title style h1,h2,h3,h4*/
+h1, h2, h3, h4 { line-height:150%; padding:0; margin:0; }
+
+h1 { font-size:19px; }
+
+h2 { font-size:17px; }
+
+h3 { font-size:14px; }
+
+h4 { font-size:13px; }
+
+/*font size style*/
+
+.t12 { font-size:12px; }
+
+.t13 { font-size:13px; }
+
+.t14 { font-size:14px; }
+
+.t15 { font-size:15px; }
+
+.littefont { font-size:9px; }
+
+.small { font-size:12px; }
+
+.large { font-size:17px; }
+
+/*bold style*/
+.bold { font-weight:bold; }
+
+/* Wear color font style*/
+.gray { color:#B4B4B4; }
+
+.gray_deep { color:#696969; }
+
+.red { color:#FF0000; }/* error or important style*/
+
+.red_deep { color:#ce0000; }
+
+.blue { color:#0033CC; }
+
+.green, .green a:link { color:#006951; }
+
+.deep_blue { color:#292a7a; }
+
+.white ,language{ color:#FFF; }
+
+.white a ,.language a{ color:#FFF; text-decoration:none; }
+
+.white a:hover { color:#d91630; }
+
+.language a:hover { color:#c0c0c0; }
+
+.orange, .orange a { color:#FF6600; }
+
+.orange a:hover { color:#FF9900; }
+
+.black, .black a { color:#000 }

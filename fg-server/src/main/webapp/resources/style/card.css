@@ -1,0 +1,78 @@
+.card {
+  background-image: url("../images/back.gif");
+  border: 1px solid #000000;
+  border-width: 1px;
+  border-style: solid;
+  color: #000000;
+  font-size: 19pt;
+  position: relative;
+  width:  80px;
+  height: 110px;
+}
+.front {
+  background-color: #ffffff;
+  color: #000000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.black {
+  color: #000000;
+}
+.red {
+  color: #ff0000;
+}
+.ace {
+  font-size: 250%;
+  position: absolute;
+  left: 20px;
+  top:  17px;
+}
+
+.pos_regular_1 { position: absolute; left: 15px; top: 8px; }
+.pos_regular_2 { position: absolute; left: 35px; top: 8px; }
+.pos_regular_3 { position: absolute; left: 55px; top: 8px; }
+.pos_regular_4 { position: absolute; left: 15px; top: 40px; }
+.pos_regular_5 { position: absolute; left: 35px; top: 40px; }
+.pos_regular_6 { position: absolute; left: 55px; top: 40px; }
+.pos_regular_7 { position: absolute; left: 15px; top: 72px; }
+.pos_regular_8 { position: absolute; left: 35px; top: 72px; }
+.pos_regular_9 { position: absolute; left: 55px; top: 72px; }
+
+.pos_middle_1 { position: absolute; left: 35px; top: 23px; }
+.pos_middle_2 { position: absolute; left: 35px; top: 63px; }
+
+.pos_left_1 { position: absolute; left: 15px; top: 30px; }
+.pos_left_2 { position: absolute; left: 15px; top: 50px; }
+
+.pos_right_1 { position: absolute; left: 55px; top: 30px; }
+.pos_right_2 { position: absolute; left: 55px; top: 50px; }
+
+.pos_jack { position: absolute; left: 15px; top: 8px; right: 15px; bottom: 8px; background: url('../images/jack.gif'); background-size: 50px 94px; }
+.pos_queen { position: absolute; left: 15px; top: 8px; right: 15px; bottom: 8px; background: url('../images/queen.gif'); background-size: 50px 94px; }
+.pos_king { position: absolute; left: 15px; top: 8px; right: 15px; bottom: 8px; background-image: url('../images/king.gif'); background-size: 50px 94px; }
+
+.index {
+  font-size: 50%;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  left: 3px;
+  top:  3px;
+}
+
+div#banner {
+	position:absolute;
+	left:220px;
+	top:140px;
+	width:200px;
+	height:40px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.3;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	color:#246f00;
+}
